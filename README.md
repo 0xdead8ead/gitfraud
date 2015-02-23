@@ -57,7 +57,7 @@ Add support for GPG Public Key - Commit Log Authentication to Github. The abilit
 
 * http://git.kernel.org/cgit/git/git.git/plain/Documentation/RelNotes/1.7.9.txt?id=HEAD
 
-This would require Github creating new (optional?) feature where gpg public keys could be uploaded to Github, in a similar manner to uploading ssh keys. Github would then be able to use those gpg public keys to authenticate git commits against users with submitted GPG public keys. Github could even jazz it up with a "social coding" twist -- think about it as having a "Verified" badge similar to twitter, just instead of verifying accounts, it would authenticate individual commits -- "Verfied Commits" for commits with good signatures.
+This would require Github creating a new (optional?) feature where gpg public keys could be uploaded to Github, in a similar manner to uploading ssh keys. Github would then be able to use those gpg public keys to authenticate git commits against users with submitted GPG public keys. Github could even jazz it up with a "social coding" twist -- think about it as having a "Verified" badge similar to twitter, just instead of verifying accounts, it would authenticate individual commits -- "Verfied Commits" for commits with good signatures.
 
 If Github properly verified signatures on commits, before associating a Github user to the commit, it would potentially prevent unauthentic commits to be attributed to arbitrary github users. 
 
@@ -279,6 +279,7 @@ To git@github.com:f47h3r/git_commit_fraud_poc.git
 ```
 
 
+* https://github.com/f47h3r/git_commit_fraud_poc/commits/master
 * https://github.com/f47h3r/git_commit_fraud_poc
 * https://github.com/f47h3r/git_commit_fraud_poc/blob/master/defunkt_wuz_here.md
 * https://github.com/f47h3r/git_commit_fraud_poc/blob/master/hd_wuz_here.md
