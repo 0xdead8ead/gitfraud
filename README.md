@@ -2,7 +2,9 @@ Git Commit Fraud
 ================
 
 Severity: **_Ineligible / Known Issue_**
+
 Requirements: **_Github Account_**
+
 Recommendation: **_Optional - GPG Commit Log Authentication Feature_**
 
 Note: **_I am not the first person to notice this issue_**
